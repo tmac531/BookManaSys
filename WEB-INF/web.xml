@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+  <servlet>
+    <servlet-name>LoginClServlet</servlet-name>
+   
+    <servlet-class>com.controller.LoginClServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BookClServlet</servlet-name>
+   
+    <servlet-class>com.controller.BookClServlet</servlet-class>
+  </servlet>
+
+
+  <servlet-mapping>
+    <servlet-name>LoginClServlet</servlet-name>
+   <url-pattern>/LoginClServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookClServlet</servlet-name>
+    <url-pattern>/BookClServlet</url-pattern>
+  </servlet-mapping>
+
+</web-app>
